@@ -1,0 +1,104 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Blackstone Bistro: Pizza-on-Demand</title>
+   <link rel="stylesheet" href="mystyles.css" type="text/css">
+</head>
+
+<body>
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+<form action="pizza.php" method="post" name="OrderPizza" target="_blank">
+
+  <fieldset>
+<ul>
+  <li>
+    <label for="name">Name:</label>
+    <input id="name" name="name" class="text" type="text">
+  </li>
+
+  <li>
+    <label for="address">Address:</label>
+    <input id="address" name="address" class="text" type="text"></li>
+
+  <li>
+    <label for="telephone">Telephone Number:</label>
+    <input id="telephone" name="telephone" class="text" type="text"></li>
+
+  <li>
+    <label for="email">Email:</label>
+    <input id="email" name="email" class="text" type="text"></li>
+
+  <li>
+    <label for="instructions">Delivery instructions:</label>
+    <input id="instructions" name="instructions" class="text" type="text"></li>
+
+</ul>
+  </fieldset>
+  <legend> Your Information </legend>
+
+
+<h2>Design Your Dream Pizza:</h2>
+
+  <fieldset>
+  <legend>Pizza Specs</legend>
+    <fieldset>
+<legend>Crust <span id="perens">(Choose one)</span></legend>
+
+<ul>
+  <li>
+    <label for="white"> White</label>
+    <input id="white" name="white" class="checkbox" type="checkbox"></li>
+
+  <li>
+    <label for="multigrain">Multigrain</label>
+    <input id="multigrain" name="multigrain" class="checkbox" type="checkbox"></li>
+
+  <li>
+    <label for="stuffed">Cheese-stuffed crust</label>
+    <input id="stuffed" name="stuffed" class="checkbox" type="checkbox"></li>
+
+  <li>
+    <label for="glutenfree">Gluten-free</label>
+    <input id="glutenfree" name="glutenfree" class="checkbox" type="checkbox"></li>
+</ul>
+  </fieldset>
+  <fieldset>
+    <legend> Toppings <span id="perens">(Choose as many as you want)</span></legend>
+<ul>
+  <li>
+    <label for="red">Red sauce</label>
+    <input id="red" name="red" class="checkbox" type="checkbox"></li>
+  <li>
+    <label for="white">White sauce</label>
+    <input id="white" name="white" class="checkbox" type="checkbox"></li>
+  <li>
+    <lable for="cheese">Mozzarella Cheese</lable>
+    <input id="cheese" name="cheese" class="checkbox" type="checkbox"></li>
+  <li>
+    <label>Pepperoni</label></li>
+  <li>Mushrooms</li>
+  <li>Peppers</li>
+  <li>Anchovies</li>
+</ul>
+  </fieldset>
+
+<fieldset>
+  <legend>Number</legend>
+<p>How many pizzas:</p>
+</fieldset>
+
+
+</fieldset>
+
+<input type="submit" name="subButton" value="Bring me a pizza!">
+<input name="restButton" type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>

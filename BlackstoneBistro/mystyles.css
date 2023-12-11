@@ -1,0 +1,12 @@
+
+      ol, ul { 
+        list-style-type: none;
+         }
+         #perens{
+            font-style:italic;
+         }
+         .text{
+            display: flex;
+            justify-content: center;
+            
+                  }
