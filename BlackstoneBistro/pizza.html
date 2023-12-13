@@ -34,8 +34,9 @@
     <input id="email" name="email" class="text" type="text"></li>
 
   <li>
-    <label for="instructions">Delivery instructions:</label>
-    <input id="instructions" name="instructions" class="text" type="text"></li>
+    <label for="instructions">Delivery instructions: &nbsp;<span id="perens">(max 400 characters)</span></label>
+    <input id="instructions" name="instructions" class="text" type="text" maxlength="400" size="50" ></li>
+    
 
 </ul>
   </fieldset>
@@ -52,19 +53,19 @@
 <ul>
   <li>
     <label for="white"> White</label>
-    <input id="white" name="white" class="checkbox" type="checkbox"></li>
+    <input id="white" name="white" class="checkbox" type="radio"></li>
 
   <li>
     <label for="multigrain">Multigrain</label>
-    <input id="multigrain" name="multigrain" class="checkbox" type="checkbox"></li>
+    <input id="multigrain" name="multigrain" class="checkbox" type="radio"></li>
 
   <li>
     <label for="stuffed">Cheese-stuffed crust</label>
-    <input id="stuffed" name="stuffed" class="checkbox" type="checkbox"></li>
+    <input id="stuffed" name="stuffed" class="checkbox" type="radio"></li>
 
   <li>
     <label for="glutenfree">Gluten-free</label>
-    <input id="glutenfree" name="glutenfree" class="checkbox" type="checkbox"></li>
+    <input id="glutenfree" name="glutenfree" class="checkbox" type="radio"></li>
 </ul>
   </fieldset>
   <fieldset>
@@ -97,8 +98,20 @@
 <fieldset>
   <legend>Number</legend>
 <p>
-  <label for="number">How many pizzas:</label>
-  <input id="number" name="number" class="text" type="text" aria-valuemax="10" aria-valuemin="1">
+  <label>How many pizzas:</label>
+  <select name="pizzas" id="pizzas">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+
+  </select>
 </p>
 
 </fieldset>
