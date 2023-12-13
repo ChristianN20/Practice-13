@@ -34,8 +34,8 @@
     <input id="email" name="email" class="text" type="text"></li>
 
   <li>
-    <label for="instructions">Delivery instructions: &nbsp;<span id="perens">(max 400 characters)</span></label>
-    <input id="instructions" name="instructions" class="text" type="text" maxlength="400" size="50" ></li>
+    <label for="instructions">Delivery instructions: &nbsp;<span id="perens">(max 400 characters)</span></label><br>
+    <textarea id="instructions" name="instructions" class="instructions" type="text" maxlength="400"></textarea></li>
     
 
 </ul>
@@ -47,25 +47,25 @@
 
   <fieldset>
   <legend>Pizza Specs</legend>
-    <fieldset>
+    <fieldset >
 <legend>Crust <span id="perens">(Choose one)</span></legend>
 
 <ul>
   <li>
     <label for="white"> White</label>
-    <input id="white" name="white" class="checkbox" type="radio"></li>
+    <input id="white" name="crust" class="checkbox" type="radio"></li>
 
   <li>
     <label for="multigrain">Multigrain</label>
-    <input id="multigrain" name="multigrain" class="checkbox" type="radio"></li>
+    <input id="multigrain" name="crust" class="checkbox" type="radio"></li>
 
   <li>
     <label for="stuffed">Cheese-stuffed crust</label>
-    <input id="stuffed" name="stuffed" class="checkbox" type="radio"></li>
+    <input id="stuffed" name="crust" class="checkbox" type="radio"></li>
 
   <li>
     <label for="glutenfree">Gluten-free</label>
-    <input id="glutenfree" name="glutenfree" class="checkbox" type="radio"></li>
+    <input id="glutenfree" name="crust" class="checkbox" type="radio"></li>
 </ul>
   </fieldset>
   <fieldset>
